@@ -1,9 +1,10 @@
 [build]
-  publish = "build"                
-  command = "npm run build"         
+  base = "todo-app-frontend"  # where the code and package.json are located
+  command = "npm run build"  # build command for React app
+  publish = "todo-app-frontend/build"  # location of the build output
 
 [[redirects]]
-  from = "/*"                     
-  to = "/index.html"               
-  status = 200                       
-  force = true                      
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
