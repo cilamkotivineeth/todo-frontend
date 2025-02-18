@@ -1,5 +1,7 @@
 # Todo App Frontend
 
+NOTE : Test this Deployed Links or URL's in any Browser so that it works properly.
+
 Vercel Deployment
 The frontend of the application has been deployed on Vercel. You can view the live application at:
 https://todo-frontend-theta-liart.vercel.app/
