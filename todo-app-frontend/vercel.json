@@ -4,5 +4,6 @@
       "src": "todo-app-frontend/package.json",
       "use": "@vercel/node"
     }
-  ]
+  ],
+  "outputDirectory": "build"
 }
